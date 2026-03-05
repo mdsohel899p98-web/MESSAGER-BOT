@@ -22,7 +22,7 @@ module.exports.onLoad = async () => {
     const dirMaterial = __dirname + `/cache/canvas/`;
     const path = resolve(__dirname, 'cache/canvas', 'fucksv5.png');
     if (!existsSync(dirMaterial + "canvas")) mkdirSync(dirMaterial, { recursive: true });
-    if (!existsSync(path)) await downloadFile("https://i.ibb.co/VJHCjCb/images-2022-08-14-T183802-542.jpg", path);
+    if (!existsSync(path)) await downloadFile("https://imgur.com/a/gFE38Ia.jpg", path);
 };
 
 // ===== Helper: Full Name Mention Detection =====
