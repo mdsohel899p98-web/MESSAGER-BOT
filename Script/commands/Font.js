@@ -474,36 +474,16 @@ module.exports.run = async ({ event, api, args }) => {
 
 ✇━━━━━━━━━━━━━━━✇
 
-𝟏  - 𝓡𝓐𝓗𝓐𝓣 / 𝓻𝓪𝓱𝓪𝓽
-𝟐  - 𝕽𝔄ℍ𝔄𝕿 / 𝕣𝕒𝕙𝕒𝕥
-𝟑  - 𝗥𝗔𝗛𝗔𝗧 | 𝗿𝗮𝗵𝗮𝘁
-𝟒  - 𝑹𝑨𝑯𝑨𝑻 | 𝒓𝒂𝒉𝒂𝒕
-𝟓  - 𝔄ℌ𝔄𝔗 | 𝔯𝔞𝔥𝔞𝔱
-𝟔  - RAHAT | ʀᴀʜᴀᴛ
-𝟕  - 🆁🅰🅷🅰🆃
-𝟖  - 🅁🄰🄷🄰🅃
-𝟗  - 𝐑𝐀𝐇𝐀𝐓 | 𝐫𝐚𝐡𝐚𝐭
-𝟏𝟎 - 𝚁𝙰𝙷𝙰𝚃 | 𝚛𝚊𝚑𝚊𝚝
-𝟏𝟏 - R͟A͟H͟A͟T͟ | r͟a͟h͟a͟t͟
-𝟏𝟐 - R͠A͠H͠A͠T͠ | r͠a͠h͠a͠t͠
-𝟏𝟑 - R̷A̷H̷A̷T̷ | r̷a̷h̷a̷t̷
-𝟏𝟒 - R̶A̶H̶A̶T̶ | r̶a̶h̶a̶t̶
-𝟏𝟓 - R̲A̲H̲A̲T̲ | r̲a̲h̲a̲t̲
-𝟏𝟔 - 𝕽𝕬𝕳𝕬𝕿 | 𝖗𝖆𝖍𝖆𝖙
-𝟏𝟕 - 𝖆𝖍𝖆𝖙 | 𝖆𝖍𝖆𝖙
-𝟏𝟖 - R̽A̽H̽A̽T̽ | r̽a̽h̽a̽t̽
-𝟏𝟗 - R̊ÅH̊ÅT̊ | r̊åh̊åt̊
-𝟐𝟎 - R̸A̸H̸A̸T̸ | r̸a̸h̸a̸t̸
-𝟐𝟏 - R̾A̾H̾A̾T̾ | r̾a̾h̾a̾t̾
-𝟐𝟐 - R⃠A⃠H⃠A⃠T⃠ | r⃠a⃠h⃠a⃠t⃠
-𝟐𝟑 - R̴A̴H̴A̴T̴ | r̴a̴h̴a̴t̴
-𝟐𝟒 - Rαнαт | rαнαт
-𝟐𝟓 - R͓̽A͓̽H͓̽A͓̽T͓̽ | r͓̽a͓̽h͓̽a͓̽t͓̽
-𝟐𝟔 - R᷈A᷈H᷈A᷈T᷈ | r᷈a᷈h᷈a᷈t᷈
-𝟐𝟕 - R̆ĂH̆ĂT̆ | r̆ăh̆ăt̆
-𝟐𝟖 - ȒȂH̑ȂT̑ | ȓȃh̑ȃt̑
-𝟐𝟗 - R̰A̰H̰A̰T̰ | r̰a̰h̰a̰t̰
-𝟑𝟎 - R⃘A⃘H⃘A⃘T⃘ | r⃘a⃘h⃘a⃘t⃘
+𝟏  - 𝒮𝒰ℳ𝒪𝒩 / 𝓈𝓊𝓂ℴ𝓃
+𝟐  - 𝕾𝖀𝕸𝕺𝕹 / 𝔰𝔲𝔪𝔬𝔫
+𝟑  - 𝗦𝗨𝗠𝗢𝗡 | 𝘀𝘂𝗺𝗼𝗻
+𝟒  - 𝑺𝑼𝑴𝑶𝑵 | 𝒔𝒖𝒎𝒐𝒏
+𝟓  - 𝑆𝑈𝑀𝑂𝑁 | 𝑠𝑢𝑚𝑜𝑛
+𝟔  - 𝕊𝕌𝕄𝕆ℕ | 𝕤𝕦𝕞𝕠𝕟
+𝟕  - SUMON  | sᴜᴍᴏɴ
+𝟖  - 🅂🅄🄼🄾🄽
+𝟗  - 🆂︎🆄︎🅼︎🅾︎🅽︎
+𝟏𝟎 - 🅼︎🅳︎🅂🅄🄼🄾🄽🅸︎🆂︎🅻︎🅰︎🅼︎ 
 
 উদাহরণ: !font 1 Rahat/rahat \nউদাহরণ: !font 3 rahat`;
     return api.sendMessage(helpMessage, event.threadID, event.messageID);
