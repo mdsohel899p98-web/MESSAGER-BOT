@@ -26,7 +26,7 @@ module.exports.run = async function ({ api, event }) {
  
  let sendVideo = function () {
  api.sendMessage({
- 'body': "𝐑𝐀𝐍𝐃𝐎𝐌 𝐌𝐈𝐗 \nAdded by: [" + videoName + "]\n𝚃𝙾𝚃𝙰𝙻 𝚅𝙸𝙳𝙴𝙾:" + videoCount + "...🎬\n\n🔰𝐑𝐀𝐇𝐀𝐓 𝐁𝐎𝐓🔰",
+ 'body': "𝐑𝐀𝐍𝐃𝐎𝐌 𝐌𝐈𝐗 \nAdded by: [" + videoName + "]\n𝚃𝙾𝚃𝙰𝙻 𝚅𝙸𝙳𝙴𝙾:" + videoCount + "...🎬\n\n🔰SUMON BOT🔰",
  'attachment': fs.createReadStream(__dirname + "/cache/Shaoon.mp4")
  }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/Shaoon.mp4"), event.messageID);
  };
